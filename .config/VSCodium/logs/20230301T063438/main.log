@@ -1,0 +1,9 @@
+2023-03-01 06:34:38.679 [info] update#setState idle
+2023-03-01 06:34:41.110 [info] Starting extension host with pid 1781 (fork() took 11 ms).
+2023-03-01 06:35:08.682 [info] update#setState checking for updates
+2023-03-01 06:35:09.074 [info] update#setState idle
+2023-03-01 07:35:08.709 [info] update#setState checking for updates
+2023-03-01 07:35:19.061 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-03-01 07:35:19.070 [info] update#setState idle

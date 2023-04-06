@@ -1,0 +1,278 @@
+/*Declaration*/
+:root {
+  --theme-color: #ff3c00;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+} */
+
+html,body {
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+  color: #ffedff;
+}
+
+/* Utility classes*/
+
+
+
+#top-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-info {
+    background-color: var(--theme-color);
+    width: 60%;
+    display: flex;
+    padding-left: 120px;
+}
+/* #left-info::after {
+  content: '';
+  top: 0;
+  background: #FF3C00;
+  transform: skew(-26deg);
+} */
+
+#left-info p {
+    display: block;
+    color: #ffedff;
+}
+
+#left-info p{
+  display: flex;
+  gap: 15px;
+  color: #252628;
+}
+
+
+
+
+#left-info p {
+align-items: center;
+height: 100%;
+}
+
+#right-info {
+  background-color: #252628;
+  width: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  gap:15px;
+  padding-right: 120px;
+  /* overflow: auto; */
+}
+
+
+
+.main-theme-btn {
+  padding: 10px 17px;
+  background-color: var(--theme-color);
+  color: #f9ffe9;
+  /* font-size: 12px; */
+  /* margin-left: 13px;
+  margin-right: 10px; */
+  border: none;
+  border-radius: 5px;
+
+}
+
+.bottom-navbar {
+  background-color: #ffffff;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#list-nav ul {
+  list-style:none;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   margin-top: 15px;
+}
+
+
+
+
+
+.hamburger {
+  color: #6d6d6d;
+
+}
+
+
+
+/*Showcase*/
+#showcase {
+  background:url('images/slider-bg1.jpg') no-repeat center center/cover;
+  position: relative;
+  height: 600px;
+}
+
+.slider-image{
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  left: 600px;
+}
+
+.showcase-text-content {
+  padding-top: 200px;
+}
+
+.showcase-text-content span,
+.showcase-text-content h1 {
+  font-weight: bolder;
+}
+
+.showcase-text-content span{
+  border-top: 2px solid var(--theme-color);
+}
+
+
+.iplay {
+  padding: 30px;
+  color: var(--theme-color);
+  font-size: 40px;
+}
+
+
+/*Section*/
+#about-sec {
+    display: flex;
+    gap: 50px;
+    margin: 80px 200px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#about-img img{
+    height: 500px;
+}
+
+#about-text h5 {
+    color: var(--theme-color);
+    font-size: 16px;
+}
+
+#about-text h1 {
+    font-weight: 900;
+}
+
+#about-text hr {
+    /* color: #fe3d00; */
+    background-color: var(--theme-color);
+    width: 10%;
+    border-width: 0;
+    height: 10px;
+}
+
+#about-text h1 span {
+    color: var(--theme-color);
+}
+
+
+/*Service Section*/
+#services-sec {
+  background-color: #f4f7fc;
+}
+
+#services-sec .container {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+#service-heading {
+  display: flex;
+}
+
+#service-title {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  width: 30%;
+}
+
+#service-title h6,
+#service-title h3
+{
+  font-weight: bolder;
+}
+
+#service-title h6 {
+  color: var(--theme-color);
+}
+
+#service-description {
+  width: 70%;
+  color: #786d6d;
+  font-weight: bold;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+}
+
+.service-list .card {
+    width: 20%;
+    margin: 0px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.service-list .card img {
+    border-radius: 10px;
+}
+
+.service-list .card .card-body i {
+    margin-left: 10px;
+}
+
+.read-more {
+    width: 100%;
+    background-color: #F4F7FC;
+    text-align: left;
+    padding: 15px;
+    border-radius: 0;
+}
+
+.read-more:hover {
+    background-color: #fe3d00;
+    color:#F4F7FC;
+    font-weight: 600;
+}
+
+
+#reason-sec {
+  background: url('images/home1-halfbg-scaled-1.jpg') no-repeat center center/cover;
+  position: relative;
+  height: 600px;
+}
+#reason-sec .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#reason-sec .fb-i img {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  right: 600px;
+}

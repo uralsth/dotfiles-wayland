@@ -1,0 +1,10 @@
+.employee-form {
+    background-color: #f4f7fc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.create-employee .btnList .btnCreate{
+    margin: 40px 100px;
+}

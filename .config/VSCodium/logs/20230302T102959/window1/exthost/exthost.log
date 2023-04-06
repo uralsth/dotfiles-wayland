@@ -1,0 +1,133 @@
+2023-03-02 10:30:03.226 [info] Extension host with pid 1556 started
+2023-03-02 10:30:03.226 [info] Skipping acquiring lock for /home/ural/.config/VSCodium/User/workspaceStorage/c8c917150a0252b60cba43c9f2efa6a2.
+2023-03-02 10:30:03.860 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 10:30:03.863 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-03-02 10:30:03.864 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-02 10:30:03.864 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: true, activationEvent: '*'
+2023-03-02 10:30:03.865 [info] ExtensionService#_doActivateExtension Shan.code-settings-sync, startup: true, activationEvent: '*'
+2023-03-02 10:30:03.866 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-03-02 10:30:04.508 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-02 10:30:04.509 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 10:30:05.107 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-02 10:30:05.312 [info] Eager extensions activated
+2023-03-02 10:30:05.400 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 10:30:05.401 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 10:30:05.403 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 10:30:05.403 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 10:30:05.403 [info] ExtensionService#_doActivateExtension zokugun.cron-tasks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 10:30:05.748 [info] ExtensionService#_doActivateExtension zokugun.sync-settings, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 10:30:06.089 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-02 11:15:00.058 [info] Extension host terminating: received terminate message from renderer
+2023-03-02 11:15:00.085 [error] Error: read ECONNRESET
+    at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-03-02 11:15:00.091 [info] Extension host with pid 1556 exiting with code 0
+2023-03-02 11:15:02.203 [info] Extension host with pid 8656 started
+2023-03-02 11:15:02.203 [info] Skipping acquiring lock for /home/ural/.config/VSCodium/User/workspaceStorage/6451e264a5cbbfa831f5b218006ffdda.
+2023-03-02 11:15:02.426 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 11:15:02.426 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-03-02 11:15:02.427 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-03-02 11:15:02.648 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 11:15:02.661 [info] Eager extensions activated
+2023-03-02 11:15:02.700 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:02.701 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:02.701 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:02.701 [info] ExtensionService#_doActivateExtension zokugun.cron-tasks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:02.786 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-02 11:15:02.868 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-02 11:15:08.185 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-03-02 11:15:08.215 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: '*'
+2023-03-02 11:15:08.215 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:08.215 [info] ExtensionService#_doActivateExtension Shan.code-settings-sync, startup: false, activationEvent: '*'
+2023-03-02 11:15:08.215 [info] ExtensionService#_doActivateExtension zokugun.sync-settings, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:17.017 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-03-02 11:15:32.333 [info] Extension host terminating: received terminate message from renderer
+2023-03-02 11:15:32.356 [info] Extension host with pid 8656 exiting with code 0
+2023-03-02 11:15:34.360 [info] Extension host with pid 8764 started
+2023-03-02 11:15:34.360 [info] Skipping acquiring lock for /home/ural/.config/VSCodium/User/workspaceStorage/5b9ded3f9cf7249a084759f600562d9b.
+2023-03-02 11:15:34.449 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 11:15:34.450 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-02 11:15:34.450 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: true, activationEvent: '*'
+2023-03-02 11:15:34.451 [info] ExtensionService#_doActivateExtension Shan.code-settings-sync, startup: true, activationEvent: '*'
+2023-03-02 11:15:34.451 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-03-02 11:15:34.782 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-02 11:15:34.887 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-02 11:15:34.887 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 11:15:34.980 [info] Eager extensions activated
+2023-03-02 11:15:34.999 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:34.999 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:34.999 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:35.000 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:35.001 [info] ExtensionService#_doActivateExtension zokugun.cron-tasks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:35.053 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-02 11:15:35.213 [info] ExtensionService#_doActivateExtension zokugun.sync-settings, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:15:41.874 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-03-02 11:52:05.388 [info] Extension host terminating: received terminate message from renderer
+2023-03-02 11:52:06.018 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/ural/.vscode-oss/extensions/vscodevim.vim-1.24.3-universal/src/register/register.ts:326:30)
+    at Object.e.deactivate (/home/ural/.vscode-oss/extensions/vscodevim.vim-1.24.3-universal/extension.ts:65:18)
+    at f._deactivate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:12968)
+    at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10372
+    at Array.map (<anonymous>)
+    at f._deactivateAll (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10359)
+    at f.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10744)
+    at h.terminate (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1565)
+    at p (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:19074)
+    at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16964
+    at f.invoke (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2559)
+    at d.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2137)
+    at p.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17066)
+    at t._receiveMessage (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:23562)
+    at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:20001
+    at f.invoke (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2559)
+    at d.fire (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2137)
+    at h.acceptChunk (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:13890)
+    at /opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:13020
+    at Socket.t (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:28756)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-03-02 11:52:06.022 [info] Extension host with pid 8764 exiting with code 0
+2023-03-02 11:52:07.943 [info] Extension host with pid 10821 started
+2023-03-02 11:52:07.943 [info] Skipping acquiring lock for /home/ural/.config/VSCodium/User/workspaceStorage/c8c917150a0252b60cba43c9f2efa6a2.
+2023-03-02 11:52:08.352 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 11:52:08.352 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-03-02 11:52:08.352 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-02 11:52:08.353 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: true, activationEvent: '*'
+2023-03-02 11:52:08.354 [info] ExtensionService#_doActivateExtension Shan.code-settings-sync, startup: true, activationEvent: '*'
+2023-03-02 11:52:08.355 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-03-02 11:52:09.263 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-02 11:52:09.263 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 11:52:09.264 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-02 11:52:09.515 [info] Eager extensions activated
+2023-03-02 11:52:09.557 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:52:09.558 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:52:09.558 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:52:09.558 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:52:09.559 [info] ExtensionService#_doActivateExtension zokugun.cron-tasks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:52:09.733 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-02 11:52:09.845 [info] ExtensionService#_doActivateExtension zokugun.sync-settings, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:20.087 [info] Extension host terminating: received terminate message from renderer
+2023-03-02 11:53:20.135 [info] Extension host with pid 10821 exiting with code 0
+2023-03-02 11:53:22.630 [info] Extension host with pid 10990 started
+2023-03-02 11:53:22.630 [info] Skipping acquiring lock for /home/ural/.config/VSCodium/User/workspaceStorage/5b9ded3f9cf7249a084759f600562d9b.
+2023-03-02 11:53:22.750 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 11:53:22.751 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-03-02 11:53:22.752 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-02 11:53:22.752 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: true, activationEvent: '*'
+2023-03-02 11:53:22.752 [info] ExtensionService#_doActivateExtension Shan.code-settings-sync, startup: true, activationEvent: '*'
+2023-03-02 11:53:22.753 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-03-02 11:53:23.280 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-02 11:53:23.281 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 11:53:23.440 [info] Eager extensions activated
+2023-03-02 11:53:23.576 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:23.577 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:23.577 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:23.577 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:23.578 [info] ExtensionService#_doActivateExtension zokugun.cron-tasks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:23.947 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-02 11:53:23.947 [info] ExtensionService#_doActivateExtension zokugun.sync-settings, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 11:53:24.273 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

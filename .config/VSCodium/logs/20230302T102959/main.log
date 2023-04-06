@@ -1,0 +1,33 @@
+2023-03-02 10:29:59.393 [info] update#setState idle
+2023-03-02 10:30:02.091 [info] Starting extension host with pid 1556 (fork() took 10 ms).
+2023-03-02 10:30:29.397 [info] update#setState checking for updates
+2023-03-02 10:30:33.475 [error] update#isLatestVersion(): failed to check for updates
+2023-03-02 10:30:33.477 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-03-02 10:30:33.529 [error] update#isLatestVersion(): failed to check for updates
+2023-03-02 10:30:33.529 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-03-02 10:30:55.634 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-03-02 10:30:55.635 [info] update#setState idle
+2023-03-02 11:15:00.126 [info] Extension host with pid 1556 exited with code: 0, signal: null.
+2023-03-02 11:15:01.610 [info] Starting extension host with pid 8656 (fork() took 14 ms).
+2023-03-02 11:15:32.387 [info] Extension host with pid 8656 exited with code: 0, signal: null.
+2023-03-02 11:15:33.780 [info] Starting extension host with pid 8764 (fork() took 12 ms).
+2023-03-02 11:30:29.418 [info] update#setState checking for updates
+2023-03-02 11:30:30.978 [info] update#setState idle
+2023-03-02 11:52:06.062 [info] Extension host with pid 8764 exited with code: 0, signal: null.
+2023-03-02 11:52:07.081 [info] Starting extension host with pid 10821 (fork() took 11 ms).
+2023-03-02 11:53:20.180 [info] Extension host with pid 10821 exited with code: 0, signal: null.
+2023-03-02 11:53:21.717 [info] Starting extension host with pid 10990 (fork() took 6 ms).
+2023-03-02 12:30:29.443 [info] update#setState checking for updates
+2023-03-02 12:30:31.378 [info] update#setState idle
+2023-03-02 13:30:29.450 [info] update#setState checking for updates
+2023-03-02 13:30:30.840 [info] update#setState idle
+2023-03-02 14:30:29.559 [info] update#setState checking for updates
+2023-03-02 14:30:31.194 [info] update#setState idle
+2023-03-02 15:30:29.588 [info] update#setState checking for updates
+2023-03-02 15:30:31.038 [info] update#setState idle

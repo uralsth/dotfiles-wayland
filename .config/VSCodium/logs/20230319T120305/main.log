@@ -1,0 +1,14 @@
+2023-03-19 12:03:06.170 [info] update#setState idle
+2023-03-19 12:03:09.013 [info] Starting extension host with pid 38439 (fork() took 10 ms).
+2023-03-19 12:03:36.174 [info] update#setState checking for updates
+2023-03-19 12:03:36.545 [info] update#setState idle
+2023-03-19 12:04:04.626 [info] Extension host with pid 38439 exited with code: 0, signal: null.
+2023-03-19 12:04:06.069 [info] Starting extension host with pid 38573 (fork() took 21 ms).
+2023-03-19 13:03:36.290 [info] update#setState checking for updates
+2023-03-19 13:03:37.407 [info] update#setState idle
+2023-03-19 14:03:36.402 [info] update#setState checking for updates
+2023-03-19 14:03:37.877 [info] update#setState idle
+2023-03-19 15:03:36.510 [info] update#setState checking for updates
+2023-03-19 15:03:37.834 [info] update#setState idle
+2023-03-19 16:03:36.617 [info] update#setState checking for updates
+2023-03-19 16:03:37.797 [info] update#setState idle

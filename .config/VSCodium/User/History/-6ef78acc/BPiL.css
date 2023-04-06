@@ -1,0 +1,24 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+} */
+
+html,body {
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+.left-info {
+    background-color: #ff3c00;
+}

@@ -1,0 +1,36 @@
+2023-03-21 18:14:56.648 [info] Configuration changed
+2023-03-21 18:14:56.850 [info] Configuration changed
+2023-03-21 18:14:57.088 [info] Configuration changed
+2023-03-21 18:14:57.664 [info] Configuration changed
+2023-03-21 18:17:26.778 [info] /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts closed
+2023-03-21 18:17:32.464 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos.json
+2023-03-21 18:21:16.626 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/sandbox.js
+2023-03-21 18:22:12.541 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/index.html
+2023-03-21 18:22:48.251 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/sandbox.js
+2023-03-21 18:22:52.641 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos.json
+2023-03-21 18:23:40.735 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/sandbox.js
+2023-03-21 18:28:07.388 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos%20copy.json
+2023-03-21 18:28:11.089 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos%20copy%202.json
+2023-03-21 18:28:15.188 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos copy 2.json closed
+2023-03-21 18:28:15.195 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/mario.json
+2023-03-21 18:28:16.774 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos%20copy.json
+2023-03-21 18:28:20.724 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos copy.json closed
+2023-03-21 18:28:20.735 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/luigi.json
+2023-03-21 18:28:22.108 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos.json
+2023-03-21 18:28:25.350 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos.json closed
+2023-03-21 18:28:25.360 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/shaun.json
+2023-03-21 18:28:34.706 [warning] Transformations overlapping: [{"type":"insertText","position":{"line":10,"character":19},"text":"shau","diff":{"type":0,"line":10,"character":25},"cursorIndex":0},{"type":"replaceText","range":[{"line":10,"character":18},{"line":10,"character":24}],"text":"\"shaun\"","diff":{"type":0,"line":10,"character":25},"cursorIndex":0}]
+2023-03-21 18:29:01.779 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/shaun.json closed
+2023-03-21 18:29:01.793 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/luigi.json
+2023-03-21 18:29:11.502 [warning] Transformations overlapping: [{"type":"insertText","position":{"line":10,"character":19},"text":"Lui","diff":{"type":0,"line":10,"character":25},"cursorIndex":0},{"type":"replaceText","range":[{"line":10,"character":18},{"line":10,"character":23}],"text":"\"Luigi\"","diff":{"type":0,"line":10,"character":25},"cursorIndex":0}]
+2023-03-21 18:29:13.868 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/luigi.json closed
+2023-03-21 18:29:13.878 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/mario.json
+2023-03-21 18:29:28.184 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/mario.json closed
+2023-03-21 18:29:28.201 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/sandbox.js
+2023-03-21 18:30:25.807 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/luigi.json
+2023-03-21 18:30:33.740 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/luigi.json closed
+2023-03-21 18:30:33.747 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos/luigi.json
+2023-03-21 18:30:36.910 [info] /home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/todos/luigi.json closed
+2023-03-21 18:30:36.946 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/sandbox.js
+2023-03-21 18:39:22.140 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/chapter06/index.html
+2023-03-21 18:39:23.552 [info] Active editor: file:///home/ural/Projects/Code/JavaScript/NetNinja/Chapter12/sandbox.js

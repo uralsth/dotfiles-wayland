@@ -1,0 +1,54 @@
+<div class="d-flex vh-100 mt-4">
+    <div class="h-100 d-flex flex-column">
+        <div class="h-50">
+            <img src="" class="h-100" style="width: 250px">
+        </div>
+    </div>
+
+    <div style="margin-left:20px" class="d-flex flex-column w-50 h-100">
+        <div class="h-50">
+            <h5>${record.name}</h5>
+            <p>${record.address}</p>
+            <hr class="w-100 my-2 hr-light">
+
+            <p class="card-text">
+                <span>Directors :</span>
+            </p>
+            <hr class="w-100 my-2 hr-light">
+
+            <p class="card-text">
+                <span>Address :</span>
+                ${record.address}
+            </p>
+            <hr class="w-100 my-2 hr-light">
+
+            <p class="card-text">
+                <span>Phone :</span>
+                ${record.phone}
+            </p>
+            <hr class="w-100 my-2 hr-light">
+
+            <p class="card-text">
+                <span>Email :</span>
+                ${record.email}
+            </p>
+            <hr class="w-100 my-2 hr-light">
+
+            <p class="card-text"><span>Registration Date :</span> ${record.regDate}</p>
+            <hr class="w-100 my-2 hr-light">
+        </div>
+    </div>
+</div>
+
+<object data="" type=""></object>
+
+const startingSalary = 20000;
+const salaryIncrease = 0.1;
+const currentDate = new Date();
+const registrationDate = new Date().toLocaleString().split(',')[0];
+const diffInMonths = (currentDate.getFullYear() - new Date(registrationDate).getFullYear()) * 12 + currentDate.getMonth() - new Date(registrationDate).getMonth();
+const numIncreases = Math.floor((diffInMonths - 3) / 3);
+const finalSalary = startingSalary * Math.pow(1 + salaryIncrease, numIncreases);
+
+// Output results
+console.log(`Registration date: ${registrationDate}`);

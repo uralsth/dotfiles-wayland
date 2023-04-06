@@ -1,0 +1,16 @@
+#This is an example subscriptions file
+#this file should be in ~/.config/ytfzf for ytfzf to use it with the -cS or -cSI options
+
+https://www.youtube.com/channel/UCwV_A5L1hhEVfld6Wbxn3jg           # Cinedesi
+https://www.youtube.com/channel/UC7_WiJnJxpm4MRNesRttzWg           # ReelRejects
+https://www.youtube.com/channel/UCR4z8ccOWNoUThB4VAMNBTg           # OurStupidReaction
+https://www.youtube.com/channel/UCs1APU4_lj3PgZz2B4HeadA           # BlindWave
+https://www.youtube.com/channel/UCLJvwQ-173AlbFt7zvPl-CQ           # CinePals
+https://www.youtube.com/channel/UC481dIe4FkXPfTPiz-giDQg           # JamesVsCinema
+https://www.youtube.com/channel/UCIwuCWycRdvAhcjRD8hu1mg           # ItsAPrimate
+https://www.youtube.com/channel/UCYd-ZaD2solhBivAqOpkYvA           # CineBingeReact
+https://www.youtube.com/channel/UCE1PLliRk3urTjDG6kGByiA           # NatalieGoldReact
+https://www.youtube.com/channel/UCuIvvz38r0yjz347bYHxrxQ           # TBRSchmitt
+https://www.youtube.com/channel/UC87_RXdvu7VGohEUMW-h5Cg           # YouMeTheMovies
+https://www.youtube.com/channel/UCn1xtOr2wHQwYTxO_KTkqNg           # PopCornInBed
+https://www.youtube.com/channel/UCbv2OBLeYiYe7B6WgPDnLow           # TheNormies

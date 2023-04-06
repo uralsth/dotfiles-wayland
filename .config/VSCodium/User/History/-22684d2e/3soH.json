@@ -1,0 +1,23 @@
+[
+    {
+        "text": "play mariokart",
+        "author": "shaun",
+        "points": 123,
+        "isValid": true
+
+    },
+    {
+        "text": "buy some bread",
+        "author": "shaun",
+        "points": 456,
+        "isValid": true
+
+    },
+    {
+        "text": "do the plumming",
+        "author": "shaun",
+        "points": 789,
+        "isValid": true
+
+    }
+]

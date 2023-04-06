@@ -1,0 +1,25 @@
+2023-03-21 08:10:40.539 [info] update#setState idle
+2023-03-21 08:10:42.917 [info] Starting extension host with pid 14506 (fork() took 12 ms).
+2023-03-21 08:11:10.542 [info] update#setState checking for updates
+2023-03-21 08:11:11.968 [info] update#setState idle
+2023-03-21 09:11:10.572 [info] update#setState checking for updates
+2023-03-21 09:11:14.679 [info] update#setState idle
+2023-03-21 10:11:10.606 [info] update#setState checking for updates
+2023-03-21 10:11:12.095 [info] update#setState idle
+2023-03-21 10:31:37.676 [info] Extension host with pid 14506 exited with code: 0, signal: null.
+2023-03-21 10:31:39.755 [info] Starting extension host with pid 28388 (fork() took 15 ms).
+2023-03-21 10:32:11.831 [info] Extension host with pid 28388 exited with code: 0, signal: null.
+2023-03-21 10:32:13.145 [info] Starting extension host with pid 28497 (fork() took 13 ms).
+2023-03-21 11:11:10.770 [info] update#setState checking for updates
+2023-03-21 11:11:12.425 [info] update#setState idle
+2023-03-21 12:11:10.944 [info] update#setState checking for updates
+2023-03-21 12:11:13.686 [info] update#setState idle
+2023-03-21 13:11:11.083 [info] update#setState checking for updates
+2023-03-21 13:11:15.805 [info] update#setState idle
+2023-03-21 14:11:11.189 [info] update#setState checking for updates
+2023-03-21 14:11:15.744 [info] update#setState idle
+2023-03-21 15:11:11.295 [info] update#setState checking for updates
+2023-03-21 15:11:12.789 [info] update#setState idle
+2023-03-21 16:11:11.402 [info] update#setState checking for updates
+2023-03-21 16:11:12.397 [info] update#setState idle
+2023-03-21 16:29:33.513 [info] Waiting for extension host with pid 28497 to exit.

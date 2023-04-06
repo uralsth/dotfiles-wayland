@@ -1,0 +1,20 @@
+/* .error {
+    padding: 10px;
+    color: crimson;
+    border: 1px dotted crimson;
+}
+
+.success {
+    padding: 10px;
+    color: limegreen;
+    border: 1px dotted limegreen;
+} */
+
+button {
+    display: block;
+    margin: 20px auto;
+    background: crimson;
+    color: white;
+    border: 0;
+    padding: 6px 10px;
+}

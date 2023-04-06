@@ -1,0 +1,7 @@
+2023-03-21 08:10:44.043 [info] Starting worker process with pid 14549 (type: fileWatcher, window: 1).
+2023-03-21 08:10:44.903 [info] Deleted from disk pkief.material-icon-theme /home/ural/.vscode-oss/extensions/pkief.material-icon-theme-4.24.0-universal
+2023-03-21 08:10:44.907 [info] Deleted from disk zokugun.sync-settings /home/ural/.vscode-oss/extensions/zokugun.sync-settings-0.15.3-universal
+2023-03-21 10:31:37.669 [info] Worker process with pid 14549 terminated normally (type: fileWatcher, window: 1).
+2023-03-21 10:31:40.408 [info] Starting worker process with pid 28400 (type: fileWatcher, window: 1).
+2023-03-21 10:32:11.811 [info] Worker process with pid 28400 terminated normally (type: fileWatcher, window: 1).
+2023-03-21 10:32:13.457 [info] Starting worker process with pid 28509 (type: fileWatcher, window: 1).

@@ -1,0 +1,19 @@
+2023-03-19 12:03:10.220 [info] Starting worker process with pid 38469 (type: fileWatcher, window: 1).
+2023-03-19 12:03:10.609 [info] Deleted from disk zokugun.sync-settings /home/ural/.vscode-oss/extensions/zokugun.sync-settings-0.15.1-universal
+2023-03-19 12:03:13.706 [info] Getting Manifest... pkief.material-icon-theme
+2023-03-19 12:03:13.709 [info] Getting Manifest... zokugun.sync-settings
+2023-03-19 12:03:15.715 [info] Installing extension: pkief.material-icon-theme
+2023-03-19 12:03:15.719 [info] Installing extension: zokugun.sync-settings
+2023-03-19 12:03:16.191 [info] Getting Manifest... zokugun.cron-tasks
+2023-03-19 12:03:18.350 [info] Extracted extension to /home/ural/.vscode-oss/extensions/.0451d8b4-cd3c-46ba-956c-2f1ab9ddbbc2: pkief.material-icon-theme
+2023-03-19 12:03:18.359 [info] Renamed to /home/ural/.vscode-oss/extensions/pkief.material-icon-theme-4.25.0-universal
+2023-03-19 12:03:18.361 [info] Extracting extension completed. pkief.material-icon-theme
+2023-03-19 12:03:18.396 [info] Extension installed successfully: pkief.material-icon-theme
+2023-03-19 12:03:18.399 [info] Marked extension as uninstalled pkief.material-icon-theme-4.24.0-universal
+2023-03-19 12:03:25.981 [info] Extracted extension to /home/ural/.vscode-oss/extensions/.1052bce4-fb0a-4b63-a9ba-5059589eee5b: zokugun.sync-settings
+2023-03-19 12:03:25.987 [info] Renamed to /home/ural/.vscode-oss/extensions/zokugun.sync-settings-0.16.0-universal
+2023-03-19 12:03:25.988 [info] Extracting extension completed. zokugun.sync-settings
+2023-03-19 12:03:25.998 [info] Extension installed successfully: zokugun.sync-settings
+2023-03-19 12:03:26.003 [info] Marked extension as uninstalled zokugun.sync-settings-0.15.3-universal
+2023-03-19 12:04:04.577 [info] Worker process with pid 38469 terminated normally (type: fileWatcher, window: 1).
+2023-03-19 12:04:06.089 [info] Starting worker process with pid 38574 (type: fileWatcher, window: 1).

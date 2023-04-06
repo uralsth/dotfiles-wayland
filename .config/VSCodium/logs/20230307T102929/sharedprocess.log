@@ -1,0 +1,10 @@
+2023-03-07 10:29:33.502 [info] Starting worker process with pid 2914 (type: fileWatcher, window: 1).
+2023-03-07 10:29:33.897 [info] Deleted from disk vscodevim.vim /home/ural/.vscode-oss/extensions/vscodevim.vim-1.24.3-universal
+2023-03-07 10:29:37.803 [info] Getting Manifest... zokugun.sync-settings
+2023-03-07 10:29:39.832 [info] Installing extension: zokugun.sync-settings
+2023-03-07 10:29:40.380 [info] Getting Manifest... zokugun.cron-tasks
+2023-03-07 10:29:43.975 [info] Extracted extension to /home/ural/.vscode-oss/extensions/.d834d220-1002-4fcd-81c8-602ff7decbf6: zokugun.sync-settings
+2023-03-07 10:29:43.989 [info] Renamed to /home/ural/.vscode-oss/extensions/zokugun.sync-settings-0.15.1-universal
+2023-03-07 10:29:43.991 [info] Extracting completed. zokugun.sync-settings
+2023-03-07 10:29:44.007 [info] Extension installed successfully: zokugun.sync-settings
+2023-03-07 10:29:44.019 [info] Marked extension as uninstalled zokugun.sync-settings-0.15.0-universal

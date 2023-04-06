@@ -1,0 +1,16 @@
+2023-03-02 10:30:03.409 [info] Starting worker process with pid 1603 (type: fileWatcher, window: 1).
+2023-03-02 11:15:00.104 [info] Worker process with pid 1603 terminated normally (type: fileWatcher, window: 1).
+2023-03-02 11:15:01.614 [info] Starting worker process with pid 8655 (type: fileWatcher, window: 1).
+2023-03-02 11:15:32.389 [info] Worker process with pid 8655 terminated normally (type: fileWatcher, window: 1).
+2023-03-02 11:15:33.788 [info] Starting worker process with pid 8763 (type: fileWatcher, window: 1).
+2023-03-02 11:16:05.178 [info] Getting Manifest... vscodevim.vim
+2023-03-02 11:16:07.659 [info] Installing extension: vscodevim.vim
+2023-03-02 11:16:10.169 [info] Extracted extension to /home/ural/.vscode-oss/extensions/.6a4e8579-b2da-423f-8c0c-6f829393f50f: vscodevim.vim
+2023-03-02 11:16:10.175 [info] Renamed to /home/ural/.vscode-oss/extensions/vscodevim.vim-1.25.2-universal
+2023-03-02 11:16:10.177 [info] Extracting completed. vscodevim.vim
+2023-03-02 11:16:10.188 [info] Extension installed successfully: vscodevim.vim
+2023-03-02 11:16:10.219 [info] Marked extension as uninstalled vscodevim.vim-1.24.3-universal
+2023-03-02 11:52:05.434 [info] Worker process with pid 8763 terminated normally (type: fileWatcher, window: 1).
+2023-03-02 11:52:07.169 [info] Starting worker process with pid 10828 (type: fileWatcher, window: 1).
+2023-03-02 11:53:20.173 [info] Worker process with pid 10828 terminated normally (type: fileWatcher, window: 1).
+2023-03-02 11:53:22.226 [info] Starting worker process with pid 11002 (type: fileWatcher, window: 1).

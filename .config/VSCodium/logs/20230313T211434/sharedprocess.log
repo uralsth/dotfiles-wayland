@@ -1,0 +1,10 @@
+2023-03-13 21:14:41.970 [info] Starting worker process with pid 5785 (type: fileWatcher, window: 1).
+2023-03-13 21:14:42.993 [info] Deleted from disk zokugun.sync-settings /home/ural/.vscode-oss/extensions/zokugun.sync-settings-0.15.0-universal
+2023-03-13 21:14:45.522 [info] Getting Manifest... zokugun.sync-settings
+2023-03-13 21:14:47.252 [info] Installing extension: zokugun.sync-settings
+2023-03-13 21:14:47.746 [info] Getting Manifest... zokugun.cron-tasks
+2023-03-13 21:14:53.456 [info] Extracted extension to /home/ural/.vscode-oss/extensions/.78d4e6de-0be4-491c-8b26-ecb6e422fb87: zokugun.sync-settings
+2023-03-13 21:14:53.465 [info] Renamed to /home/ural/.vscode-oss/extensions/zokugun.sync-settings-0.15.3-universal
+2023-03-13 21:14:53.468 [info] Extracting completed. zokugun.sync-settings
+2023-03-13 21:14:53.486 [info] Extension installed successfully: zokugun.sync-settings
+2023-03-13 21:14:53.522 [info] Marked extension as uninstalled zokugun.sync-settings-0.15.1-universal

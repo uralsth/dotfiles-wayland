@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+      "key": "ctrl+j",
+      "command": "selectNextSuggestion",
+      "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+k",
+      "command": "selectPrevSuggestion",
+      "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+     {
+      "key": "ctrl+alt+v",
+      "command": "toggleVim"
+    },
+]

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .redColor
+        {
+            color: red;
+            border: solid 5px yellow;
+        }
+        .selected
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- First Name: <input type="text" name="txtFirstName" data-bind="value: FirstName"><br>
+    Last Name: <input type="text" name="txtLastName" data-bind="value: LastName"><br>
+    <p>
+        Hello <span data-bind="text: FullName"></span>
+    </p> -->
+
+    <!-- Account Id's:
+    <select id="ddlAccounts" data-bind="options: Accounts, optionsText:'Id', optionsValue:'Id'"></select>
+
+    <hr>
+
+    <h2>Account Details</h2> -->
+    <!-- Id: <span data-bind="text: Id"></span><br>
+    Name: <span data-bind="text: Name"></span><br>
+    Balance: <span data-bind="text: Balance"></span><br> -->
+
+    <!-- Id: <span data-bind="text: Accounts()[selectedAccountIndex()].Id"></span><br>
+    Name: <span data-bind="text: Accounts()[selectedAccountIndex()].Name"></span><br>
+    Balance: <span data-bind="text: Accounts()[selectedAccountIndex()].Balance"></span><br>
+    <hr>
+    New Balance: <input type="text" data-bind="value: Balance">
+
+    <hr>
+    New Id: <input type="text" id="txtNewId" value=""><br>
+    New Name: <input type="text" id="txtNewName" value=""><br>
+    New Balance: <input type="text" id="txtNewBalance" value=""><br>
+    <input type="button" id="btnAddAccount" value="Add Account">
+     -->
+
+
+
+     <!-- <input type="range" name="txtNumber" data-bind="value: Number" min="1" max="100">
+     This number is <span data-bind="visible: IsEvenNumber">Even</span><span data-bind="visible: IsEvenNumber() == false">Odd</span><br>
+     The number is <span data-bind="text: Number"></span>
+     <div data-bind="text: FormattedNumber"></div>
+     <div data-bind="html: FormattedNumber"></div>
+     <div data-bind="style: {color: DisplayColor, fontWeight: Number()>50?'bold':''}">This is demo text</div>
+     <div data-bind="css: {redColor: IsEvenNumber}">This is red for even number</div>
+     <br>
+     <a href="" data-bind="attr: {href: Urls()[Number() % 2]}"></a> -->
+
+     <!-- <input type="checkbox" name="name" data-bind="checked: ShowHideSection">
+    <div id="div1" data-bind="if: ShowHideSection">
+        This is block...
+    </div>
+    <div id="div2" data-bind="visible: ShowHideSection">
+        This is block2...
+    </div>
+    <button onclick="alert(document.getElementById('div1').innerHTML)">Div1</button>
+    <button onclick="alert(document.getElementById('div2').innerHTML)">Div2</button>
+
+    <hr>
+    <div>
+        City: <span data-bind="text:City"></span><br> -->
+        <!-- Office Phone: <span data-bind="text:Phone.Office"></span><br>
+        Home Phone: <span data-bind="text:Phone.Home"></span><br> -->
+
+        <!-- <span data-bind="with: Phone">
+            Office Phone: <span data-bind="text:Office"></span><br>
+            Home Phone: <span data-bind="text:Home"></span><br>
+        </span>
+    </div> -->
+
+    <!-- <hr>
+    <ul data-bind="foreach: Colors">
+        <li data-bind="text: $data"></li>
+    </ul> -->
+
+
+    <!-- <table>
+        <thead>
+            <th>S.NO</th>
+            <th>Name</th>
+            <th>Balance</th>
+        </thead>
+        <tbody data-bind="foreach: {data: Accounts, as: 'Account'}">
+            <tr data-bind="css: {selected: (Account.Id == ($parent.SelectedAccount()==null?-1:$parent.SelectedAccount().Id))}">
+                <td data-bind="text:(($index()+1) + '/' + $parent.Count())"></td>
+                <td data-bind="text:Account.Id"></td>
+                <td data-bind="text:Account.Name"></td>
+                <td data-bind="text:Account.Balance"></td>
+                <td><button data-bind="click: $parent.SelectAccount, clickBubble:false">select</button></td>
+                <td><button data-bind="click: $parent.DeleteAccount, clickBubble:false">Delete</button></td>
+                <td><button class="btn-delete-account">Delete(Unobtrusive)</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="text" data-bind="value: AmountToTransact" >
+    <button data-bind="click: Deposit, enable:SelectedAccount() != null">Deposit</button>
+    <button data-bind="click: function(data){Withdraw(500),enable:SelectedAccount() != null}">Withdraw</button> -->
+
+
+    Name: <span data-bind="text: Name"></span>
+    Residence Address:
+    <!-- <div data-bind="template: {name: 'address-templ', data: ResidenceAddress}"></div> -->
+    <span data-bind="text: ResidenceAddress.City"></span>
+    Office Address:
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="knockout.js"></script>
+    <!-- <script id="address-templ" type="text/html">
+        Street: <span data-bind="text: Street"></span><br>
+        City: <span data-bind="text: City"></span><br>
+        State: <span data-bind="text: State"></span><br>
+    </script> -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("#btnAddAccount").click(function(){
+                var acc = new Account($("#txtNewId").val(), $("#txtNewName").val(),$("#txtNewBalance").val());
+                accViewModel.Accounts.push(acc);
+                alert(accViewModel.Accounts().length);
+            })
+
+            $("#ddlAccounts").change(function(){
+                var selInd = document.getElementById("ddlAccounts").selectedIndex;
+                accViewModel.selectedAccountIndex(selInd);
+            })
+
+
+        })
+    </script> -->
+    <script>
+        // var NameViewModel = function(fname, lname) {
+        //     let self =this;
+        //     self.FirstName = ko.observable(fname);
+        //     self.LastName = ko.observable(lname);
+        //     self.FullName = ko.computed(function() {
+        //         return (self.FirstName() + " " + self.LastName());
+        //     })
+        // }
+        // ko.applyBindings(new  NameViewModel("Ural", "Shrestha"))
+
+        //Model
+        // function Account(id, name, balance){
+        //     this.Id = id;
+        //     this.Name = name;
+        //     this.Balance = balance;
+        // }
+
+        // // VIewModel
+        // function AccountViewModel(acc){
+        //     this.Id = acc.Id;
+        //     this.Name = acc.Name;
+        //     this.Balance = ko.observable(acc.Balance);
+        //     var a1 = new Account(1, "A1", 10000);
+        //     var a2 = new Account(2, "A2", 20000);
+        //     var a3 = new Account(3, "A3", 30000);
+        //     this.Accounts = ko.observableArray([a1, a2, a3]);
+        //     this.selectedAccountIndex = ko.observable(0);
+        // }
+        // var acc = new Account(1, "A1", 10000);
+        // var accViewModel = new AccountViewModel(acc);
+        // ko.applyBindings(accViewModel)
+    </script>
+
+    <!-- <script>
+        var myViewModel = function(){
+            this.Number = ko.observable(1);
+            this.IsEvenNumber = ko.computed(function(){
+                return this.Number() % 2 == 0;
+            }, this)
+            this.FormattedNumber  = ko.computed(function() {
+                return "<b>" + this.Number() + "</b>"
+            },this)
+            this.DisplayColor = ko.computed(function(){
+                if (this.Number() > 50)
+                    return 'Red';
+                else
+                    return 'Green';
+            }, this)
+            this.Urls = ko.observableArray(['http://www.red.com', 'http://www.green.com']);
+        }
+
+        ko.applyBindings(myViewModel);
+    </script> -->
+
+    <!-- <script>
+        var myViewModel = function(){
+            this.City= ko.observable("Thaiba");
+            this.Phone = {Home:123456, Office: 654321};
+            this.Colors = ko.observable(["red", "green", "blue", "pink"]);
+            this.ShowHideSection = ko.observable(true);
+        }
+        ko.applyBindings(myViewModel);
+    </script> -->
+
+    <!-- <script>
+        function Account(id, name, balance){
+            this.Id = id;
+            this.Name = name;
+            this.Balance = ko.observable(balance);
+            // this.Deposits = deposits;
+        }
+
+        var myAccountViewModel = new function(){
+            var self = this;
+            this.SelectedAccount = ko.observable(null);
+            this.Accounts = ko.observableArray([
+                new Account(1, "A1", 10000),
+                new Account(2, "A2", 20000),
+                new Account(3, "A3", 30000),
+                new Account(4, "A4", 40000),
+            ]),
+            this.Count = ko.computed(function () {
+                return this.Accounts().length;
+            },this),
+            this.SelectAccount = function(account){
+                self.SelectedAccount(account);
+                alert(account.Name);
+            }
+            // this.AmountToDeposit = ko.observable(0)
+            this.AmountToTransact = ko.observable(0)
+            this.Deposit = function(){
+                this.SelectedAccount().Balance(this.SelectedAccount().Balance() + Number(this.AmountToTransact()));
+            }
+            this.Withdraw = function(minAmount){
+                if(this.SelectedAccount().Balance() - this.AmountToTransact() < minAmount)
+                    alert("Insufficient Balance");
+                this.SelectedAccount().Balance(this.SelectedAccount().Balance() - Number(this.AmountToTransact()));
+            }
+
+            this.DeleteAccount = function(account){
+                if(self.SelectedAccount() == account)
+                    self.SelectedAccount(null);
+                self.Accounts.remove(account);
+            }
+        }
+
+        ko.applyBindings(myAccountViewModel);
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-delete-account").click(function(){
+                var account  = ko.dataFor(this);
+                var context = ko.contextFor(this);
+                alert("Before Delete: " + context.$parent.Accounts().length)
+                myAccountViewModel.Accounts().remove(account)
+                alert("After Delete: " + context.$parent.Accounts().length)
+            })
+        })
+    </script> -->
+
+    <script>
+        function Address(street, city, state){
+            this.Street = street;
+            this.City = city;
+            this.State = state;
+        }
+
+        function PersonViewModel(){
+            this.Name = ko.observable("Abcd");
+            this.ResidenceAddress = new Address("RStreet", "RCity", "RState");
+            this.OfficeAddress = new Address("OStreet", "OCity", "OState");
+
+        }
+        var personViewModel = new PersonViewModel();
+        ko.applyBindings(personViewModel);
+    </script>
+
+</body>
+</html>

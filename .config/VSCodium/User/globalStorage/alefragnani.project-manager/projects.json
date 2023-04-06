@@ -1,0 +1,51 @@
+[
+	{
+		"name": "Demo1",
+		"rootPath": "/home/ural/Projects/Code/Javascript/Demo1",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Website",
+		"rootPath": "/mnt/windows1/Project/Website",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Employee",
+		"rootPath": "/mnt/windows1/Project/Employee",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "EmployeeManagement",
+		"rootPath": "/home/ural/Projects/Code/Employee",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "EmployeeKnockout",
+		"rootPath": "/home/ural/Projects/Code/EmployeeKnockout",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "ytKJ",
+		"rootPath": "/home/ural/Projects/Code/KnockoutJS/ytKJ",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "TypeScript",
+		"rootPath": "/home/ural/Projects/Code/TypeScript",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]

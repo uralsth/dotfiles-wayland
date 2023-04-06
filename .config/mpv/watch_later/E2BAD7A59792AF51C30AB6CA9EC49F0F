@@ -1,0 +1,4 @@
+start=31.532000
+vf=@blackout:!lavfi=graph=
+af=@silencedetect:!lavfi=graph=%32%silencedetect=noise=-45dB:d=0.85
+sid=1

@@ -1,0 +1,8 @@
+start=429.362267
+volume=73.000000
+vf=@blackout:!lavfi=graph=
+af=@silencedetect:!lavfi=graph=%32%silencedetect=noise=-45dB:d=0.85
+panscan=0.100000
+sub-scale=0.900000
+sub-ass-override=force
+video-aspect-override=1.777778

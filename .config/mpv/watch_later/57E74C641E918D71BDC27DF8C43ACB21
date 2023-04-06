@@ -1,0 +1,9 @@
+start=1456.881000
+pause=yes
+volume=87.000000
+fullscreen=yes
+vf=@blackout:!lavfi=graph=
+af=@silencedetect:!lavfi=graph=%32%silencedetect=noise=-45dB:d=0.85
+sid=1
+sub-delay=50.240997
+sub-pos=92

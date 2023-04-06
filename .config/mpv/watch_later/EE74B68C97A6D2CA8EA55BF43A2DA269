@@ -1,0 +1,4 @@
+start=437.100000
+speed=1.210000
+vf=@blackout:!lavfi=graph=
+af=@silencedetect:!lavfi=graph=%32%silencedetect=noise=-45dB:d=0.85

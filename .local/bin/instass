@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+
+brave --app="https://instagram.com/$1" &
+
+while true;
+do
+  sleep 7
+  maim -i $(xdotool getactivewindow) ~/homework/ss$(uuidgen } cut -d'-' -f1).jpg
+  sleep 5
+  xdotool key space
+  
+done
+pkill brave

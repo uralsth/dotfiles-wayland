@@ -1,0 +1,16 @@
+#!/bin/sh
+
+name=$(uuidgen | cut -d'-' -f1)
+
+echo "Downloading video section..."
+ffmpeg -i $(yt-dlp -f bestvideo --get-url $1) -ss $2 -to $3 -f mp4 /tmp/gm-1.mp4
+
+echo "Making video slow...."
+ffmpeg -i /tmp/gm-1.mp4 -vf 'setpts=2.0*PTS' -f mp4 /tmp/gm-2.mp4
+
+echo "Adding effec and converting into gif..."
+ffmpeg -i /tmp/gm-2.mp4 -vf 'eq=saturation=2' -f gif ~/Pictures/gifwall/$name.gif
+
+echo "Appying wallpaper!"
+swww img ~/Pictures/gifwall/$name.gif
+

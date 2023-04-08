@@ -112,8 +112,8 @@ alias jdpfix="sudo find /mnt/linux/media -type d -exec chmod 774 {} +"
 alias jfpfix="sudo find /mnt/linux/media -type f -exec chmod 664 {} +" 
 
 
-# clear with colorscript
-alias clear="clear && colorscript -r"
+# clear with getQuotes
+alias clear="clear && getQuotes -s"
 # vim and emacs
 alias v="nvim"
 alias svim="sudo nvim"
@@ -223,8 +223,8 @@ PATH="$HOME/.local/bin:$PATH"
 PATH=$PATH:$HOME/.local/bin
 
 
-## Random color script ##
-colorscript random
+## Random getQuotes ##
+getQuotes -s
 
 
 # Starship initialization

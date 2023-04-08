@@ -1,0 +1,133 @@
+#!/bin/bash
+
+# Set the path to the file containing the quotes
+quotes_file="$HOME/.local/share/quotes"
+
+# Define function to display a random quote from the file
+function random_quote {
+  # Count the number of quotes in the file
+  num_quotes=$(wc -l < "$quotes_file")
+
+  # Generate a random number between 1 and the number of quotes
+  rand_num=$((1 + RANDOM % num_quotes))
+
+  # Get the quote and author using sed and awk
+  quote=$(sed "${rand_num}q;d" "$quotes_file" | awk -F '\t' '{print $1}')
+  author=$(sed "${rand_num}q;d" "$quotes_file" | awk -F '\t' '{print $2}')
+
+  # Print the quote and author to theq terminal
+  cowsay -W 51 -f tux "$quote - $author" | awk '{printf "  %s\n", $0}' | lolcat -r
+  exit 0
+}
+
+# Define function to add a new quote to the file
+function add_quote {
+  # Prompt the user for the new quote and author
+  read -p "Enter the new quote: " new_quote
+  read -p "Enter the author of the quote: " new_author
+
+  # Append the new quote and author to the file
+  echo -e "$new_quote\t$new_author" >> "$quotes_file"
+
+  echo "Quote added successfully!"
+}
+
+# Define function to update an existing quote in the file
+function update_quote() {
+    # Get the list of quotes from the file
+    quotes=($(cat "$quotes_file"))
+    
+    # Use fzf to select the quote to edit
+    selected=$(printf '%s\n' "${quotes[@]}" | fzf -1 -q "$1")
+    
+    # Extract the text and author of the selected quote
+    text=$(echo "$selected" | cut -d '|' -f 1)
+    author=$(echo "$selected" | cut -d '|' -f 2)
+    
+    # Prompt for the new text and author
+    read -p "Enter new quote text [$text]: " new_text
+    new_text=${new_text:-$text}
+    read -p "Enter new author name [$author]: " new_author
+    new_author=${new_author:-$author}
+    
+    # Update the selected quote in the file
+    sed -i "s/^$text|$author$/$new_text|$new_author/g" "$quotes_file"
+    
+    echo "Quote updated: $new_text - $new_author"
+}
+
+# Define function to update an existing quote in the file
+#function update_quote {
+#  # Prompt the user for the quote to update
+#  read -p "Enter the quote to update: " old_quote
+#
+#  # Find the line number of the quote in the file
+#  line_num=$(grep -n "$old_quote" "$quotes_file" | cut -d: -f1)
+#
+#  if [[ -z "$line_num" ]]; then
+#    echo "Quote not found in the file."
+#  else
+#    # Prompt the user for the updated quote and author
+#    read -p "Enter the updated quote: " new_quote
+#    read -p "Enter the updated author of the quote: " new_author
+#
+#    # Update the quote and author in the file
+#    sed -i "${line_num}s/.*/${new_quote}\t${new_author}/" "$quotes_file"
+#
+#    echo "Quote updated successfully!"
+#  fi
+#}
+
+# Define function to remove a quote from the file
+function remove_quote {
+  # Prompt the user for the quote to remove
+  read -p "Enter the quote to remove: " quote_to_remove
+
+  # Find the line number of the quote in the file
+  line_num=$(grep -n "$quote_to_remove" "$quotes_file" | cut -d: -f1)
+
+  if [[ -z "$line_num" ]]; then
+    echo "Quote not found in the file."
+  else
+    # Remove the quote from the file
+    sed -i "${line_num}d" "$quotes_file"
+
+    echo "Quote removed successfully!"
+  fi
+}
+
+# Parse command line arguments
+while getopts "sau:r:" opt; do
+  case $opt in
+    s) random_quote;;
+    a) add_quote;;
+    u) update_quote "$OPTARG";;
+    r) remove_quote "$OPTARG";;
+    *) echo "Invalid option";;
+  esac
+done
+
+shift $((OPTIND-1))
+
+# If no flags are passed, display the menu options and prompt the user for their choice
+if [[ $# -eq 0 ]]; then
+  while true; do
+    echo "1. Show a random quote"
+    echo "2. Add a new quote"
+   
+    echo "3. Update an existing quote"
+    echo "4. Remove a quote"
+    echo "5. Quit"
+    
+    read -p "Enter your choice: " choice
+    
+    case $choice in
+      1) random_quote;;
+      2) add_quote;;
+      3) update_quote;;
+      4) remove_quote;;
+      5) exit;;
+      *) echo "Invalid choice";;
+    esac
+done
+fi

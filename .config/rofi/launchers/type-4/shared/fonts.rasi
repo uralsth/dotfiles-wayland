@@ -8,5 +8,5 @@
  **/
 
 * {
-    font: "Hack Nerd Font 20";
+    font: "Hack Nerd Font 12";
 }

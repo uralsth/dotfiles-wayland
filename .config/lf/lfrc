@@ -1,14 +1,9 @@
 set ratios 1:2:3
 # Basic Settings
 
-set previewer wayPreview
-#set cleaner ~/.config/lf/cleaner
-#
-#set previewer ctpv
-#set cleaner ctpvclear
-#&ctpv -s $id
-#&ctpvquit $id
 set preview true
+set previewer ~/.config/lf/previewer.sh
+set cleaner ~/.config/lf/cleaner.sh
 set hidden true
 set drawbox true
 set icons true

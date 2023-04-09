@@ -1,5 +1,0 @@
-#!/bin/bash
-file=$1
-case "${file}" in
-  *.png) img2sixel "${file}";;
- esac

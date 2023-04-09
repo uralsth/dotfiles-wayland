@@ -1,3 +1,25 @@
 #!/bin/sh
-emoji="$(cat $HOME/.local/share/emoji | rofi -dmenu -l 15 | cut -d' ' -f1)"
-echo "$emoji" | tr "\n" " " | wl-copy
+
+emoji_file="$HOME/.local/share/last_selected_emoji"
+last_selected=$(cat "$emoji_file" 2>/dev/null)
+
+emoji_list=$(cat $HOME/.local/share/emoji)
+emoji_list_sorted=$(echo -e "$last_selected\n$emoji_list" | awk '!seen[$0]++')
+
+emoji=$(echo -e "$emoji_list_sorted" | rofi -dmenu -l 6 -p "Select an emoji" -mesg "Last selected: $last_selected" -no-custom | cut -d' ' -f1)
+
+if [ -n "$emoji" ]; then
+    echo "$emoji" | tr "\n" " " | wl-copy
+    echo "$last_selected" | grep -v "$emoji" | head -n 9 > "$emoji_file"
+    description=$(grep "$emoji" $HOME/.local/share/emoji | cut -d' ' -f2-)
+    echo -e "$emoji $description\n$(cat $emoji_file)" > "$emoji_file"
+else
+    if [ -n "$last_selected" ]; then
+        echo "$last_selected" > "$emoji_file"
+    fi
+fi
+
+if [ -n "$emoji" ]; then
+    echo "$emoji" | tr "\n" " " | wl-copy
+fi
+

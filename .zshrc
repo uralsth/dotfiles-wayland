@@ -15,7 +15,7 @@ export TERM="xterm-256color"                      # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export EDITOR="nvim"              # $EDITOR use Emacs in terminal
 export VISUAL="nvim"           # $VISUAL use Emacs in GUI mode
-export EXA_ICON_SPACING=2
+export EXA_ICON_SPACING=1
 export sudoedit="nvim"
 # export NEXTCLOUD_PHP_CONFIG=/etc/webapps/nextcloud/php.ini
 export CALIBRE_USE_DARK_PALETTE=1
@@ -40,6 +40,9 @@ export PATH=$PATH:$GOPATH/bin
 
 # kdeconnect
 alias share="kdeconnect-cli -n uralg --share "
+
+# Kitten
+alias icat="kitty +kitten icat"
 
 # Basic auto/tab complete:
 autoload -U compinit

@@ -9,7 +9,7 @@
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces", "hyprland/window"],
     //"modules-center": ["hyprland/window"],
-    "modules-right": ["mpd", "tray", "pulseaudio", "backlight", "battery", "clock"],
+    "modules-right": ["mpd", "tray", "pulseaudio", "network", "backlight", "battery", "clock"],
     // "modules-right": ["mpd", "tray", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight","battery", "battery#bat2", "clock"],
     // "modules-left": ["sway/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
 
@@ -128,6 +128,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
+	"smooth-scrolling-threshold": 2,
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
